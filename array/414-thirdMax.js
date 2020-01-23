@@ -23,7 +23,7 @@ var thirdMax01 = function (nums) {
   return tmpArr[0] === -Infinity ? tmpArr[2] : tmpArr[0]
 };
 
-// 2. 思路和方法一样, 不使用数组的includes提高性能
+// 2. 思路和方法1一样, 不使用数组的includes提高性能
 var thirdMax = function (nums) {
   let n1 = -Infinity, n2 = -Infinity, n3 = -Infinity
   for (const n of nums) {
